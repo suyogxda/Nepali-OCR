@@ -1,0 +1,31 @@
+Handwritten
+-----------------------------------------------------------
+
+Kaggle by someone from TU.
+
+contains labelled data for already seperated text
+https://www.kaggle.com/ashokpant/devanagari-character-dataset/
+
+People from RIT. One nepali guy and professors
+https://archive.ics.uci.edu/ml/machine-learning-databases/00389/
+
+nepali cv team more than 95k data
+https://www.kaggle.com/rishianand/devanagari-character-set
+--> i think this is the same https://drive.google.com/drive/u/0/folders/0B1fb_oJIyNc5SC1rTnZTdU9Sdmc
+
+
+
+
+All of the above are for characters.
+
+-----------------------------------------------------------
+
+
+Relevent papers/readings
+https://www.academia.edu/11335384/optical_character_recognition_of_handwritten_hindi_character?auto=download
+
+https://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/images/ConferencePapers/2017/Benchmarkingtelugu_malayalam.pdf
+
+https://cedar.buffalo.edu/script/Doverview.html
+
+https://pdf.sciencedirectassets.com/280203/1-s2.0-S1877050919X00083/1-s2.0-S1877050919306854/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQCd8DaKcZR0LjvpWT%2BYKJwE1EEnPcLTc0sP%2BQQPbORQ%2BAIhAMnmvB%2FA3bmJGSThWm9ARnEBwGnnHfoS%2Bjx1WEcul2XoKtACCDgQAhoMMDU5MDAzNTQ2ODY1IgxuMorCnji0IoEYhykqrQLfXf3QUYzmOJvIitibun5b%2BCYJQcdbX6wqjfNrYbUGXYqKMswlJrZ44kfJu2DhaCEhcrAY7acVzCz1ZiKWJYllq1g%2BtuYLwoAx6DQxp6twwF%2BlxUOtV%2FcKxW4pI4o%2BUSd3p7ZH6gV2XAzsOS4O5GD3f7JPnfjMr%2F%2FCwJ09KZxEUu6Xvq9mgEGOCCxJEqpi5sG4aVpdr%2BnpT%2BbcDV92J6xyESxriFril4383Ulx4aTO3O1oPgFlM79SlMWzOz4sa6pr9eJWIDQYaOvrado6Gdsknub%2BJJn5DY%2FDLvrTl3jSbSRYO811vUSlzT2%2B9MbhdG7kWF1UCOaKuaVXNZPanhpyGshEtSDeA4GrTrqWprEMkcF368X7PkTjCJHX46W%2FJg2LjKOWeZ13reFMjBQrMLry5u4FOs4CS96l8jcoGh148XvaX%2Fa7L2oKM2CU1htX8UneOqsLvBA5565hi%2BKwBQrm%2BntzHtNefgD%2FjnuJCiqDNFXGF9aXVuyfVTPpbPowigXTGJA8MXAqzjvR5%2FnNuGxUvz%2BPTqMvVUjQXWyOnYbsYSGiXdTv0NG5bB2igdJFXA%2Ft6XFUnRhg%2ByX02C%2Bx0%2Ff7V1bk2jaCRY38mlpf1QYemNFIDtKAHQYsE4eN8LYtII14HkrCe8q63iuZsM3YZwO1XObOyrsENdn0zWhcpIVD87yHO3Gkv6SkydR3r1wHn2I4XBdbRW7Gv9CrgzvXroUZEJwLogqVeLX7fyCvW6m857tSx2D5cYZuptVZBSsjzEp7pjmP4%2BTcS6qE%2BE5vxhMx0zL5tyCp16psLaxGct9%2F7KUZkgGMLP3Z50DixA9ioTRVsS%2FrXm%2BL0%2F6OM5Dh8FICcPtd1A%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191124T002552Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY5LIPBUR6%2F20191124%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=0b825b56866a409f2a14d4cec5330e2ec4062c5f408c69587cce4254f7f1c103&hash=c45c31b4c4af15664970c2880d54a5433fd0308fa7a25ebf2f53b536158f12c0&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1877050919306854&tid=spdf-df70bb56-9a89-4ae5-aef9-0faf3c017fca&sid=733cec552ce683480f99c5a1ff844aff9869gxrqb&type=client
