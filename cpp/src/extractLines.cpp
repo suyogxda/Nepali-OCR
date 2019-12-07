@@ -17,13 +17,13 @@ std::vector<cv::Mat> segment_lines( cv::Mat& thin_image , cv::Mat& binary_image 
         black_pixels( i, 0 ) = cv::countNonZero( row );
 
         if( checkpoint == 0 ){
-            if( black_pixels(i, 0) > 2 ){
+            if( black_pixels(i, 0) > LINE_THRESHOLD ){
                 checkpoint++;
                 singleLine.clear();
                 singleLine.push_back(i);
             }
         }
-        else if( checkpoint != 0 && black_pixels(i, 0) > 2 ){
+        else if( checkpoint != 0 && black_pixels(i, 0) > LINE_THRESHOLD ){
             ++checkpoint;
         }
         else{

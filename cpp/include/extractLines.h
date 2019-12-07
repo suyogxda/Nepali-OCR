@@ -1,7 +1,8 @@
 #pragma once
 #include <opencv2/opencv.hpp> 
 #include <iostream> 
- 
+
+#define LINE_THRESHOLD 5
 
 extern std::vector<std::vector<int>> linePoints;
  
