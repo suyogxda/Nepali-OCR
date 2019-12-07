@@ -22,6 +22,8 @@ int main(int argc, char** argv){
   cv::namedWindow( "Lines", cv::WINDOW_NORMAL );
   for( size_t i = 0; i < vector_of_images.size(); ++i ){
     cv::imshow( "Lines", vector_of_images[i] );
-    cv::waitKey();
+    auto key = cv::waitKey();
+    if( key == 27 )
+      break;
   }
 }
