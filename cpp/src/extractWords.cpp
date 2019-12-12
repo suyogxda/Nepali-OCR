@@ -41,7 +41,7 @@ std::vector< int > getWords( cv::Mat image ){
             wordPoints.push_back( characterPoints[i] );
             checker = true;
         }
-        if( ( aspectRatio / image.rows > 0.4 ) && checker ){
+        if( ( aspectRatio / image.rows > WORD_THRESHOLD ) && checker ){
             wordPoints.push_back( characterPoints[i - 1] );
             checker = false;
         }
