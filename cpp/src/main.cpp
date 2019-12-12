@@ -1,6 +1,7 @@
 #include <opencv2/opencv.hpp>
 #include "thin.h"
 #include "extractLines.h"
+#include "extractWords.h"
 
 int main(int argc, char** argv){
   cv::Mat input_image = cv::imread( argv[1], 0 );
@@ -19,11 +20,18 @@ int main(int argc, char** argv){
   // For loop to show the seperated lines.
   // This line extraction method is not limited just to devnagari scripts
   // Just make sure that the images of texts you pass are clean, and not connected vertically
-  cv::namedWindow( "Lines", cv::WINDOW_NORMAL );
+  cv::namedWindow( "Lines", cv::WINDOW_NORMAL );\
+  cv::imshow( "Lines", binary_image );
   for( size_t i = 0; i < vector_of_images.size(); ++i ){
-    cv::imshow( "Lines", vector_of_images[i] );
-    auto key = cv::waitKey();
-    if( key == 27 )
-      break;
+    auto words = getWords( vector_of_images[i] );
+    for( size_t j = 0; j < words.size(); j++ ){
+      cv::Rect wordRect = cv::Rect( words[j], 0, words[j + 1] - words[j], vector_of_images[i].rows );
+      cv::imshow( "words", vector_of_images[i]( wordRect ) );
+      auto key = cv::waitKey();
+      if( key == 27 )
+        break;
+      j++;
+    }
+    // cv::imshow( "Lines", vector_of_images[i] );
   }
 }
