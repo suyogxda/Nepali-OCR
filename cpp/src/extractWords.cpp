@@ -64,6 +64,6 @@ std::vector< int > getWords( cv::Mat image ){
         }
         i++;
     }
-    return characterPoints;
+    return wordPoints;
 
 }
