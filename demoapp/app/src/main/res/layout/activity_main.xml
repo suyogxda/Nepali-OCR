@@ -13,8 +13,8 @@
 
     <ImageView
         android:id="@+id/button_capture"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
         android:layout_margin="20dp"
